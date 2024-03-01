@@ -1,0 +1,45 @@
+ManifestFileVersion: 0
+CRC: 2552437718
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 110d0ff4ff07ef6360a9fe2683fdab97
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 022da474cba9d136de2343f29be73abd
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4fa37f77ceab62341a26ef413362226f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.FontData
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+Assets:
+- Assets/GameRes/UIPanel/UILoading.prefab
+Dependencies:
+- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_assets_gameres_uiimage.bundle
+- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_assets_gameart_uifont.bundle

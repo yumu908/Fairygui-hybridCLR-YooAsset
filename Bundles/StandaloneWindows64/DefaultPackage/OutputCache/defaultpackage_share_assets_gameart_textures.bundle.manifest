@@ -1,0 +1,19 @@
+ManifestFileVersion: 0
+CRC: 1148082352
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 6ec895e3b56e086ad9e62967350b8b54
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameArt/Textures/Grid_01_BaseMap.png
+- Assets/GameArt/Textures/Grid_01_Emissive.png
+- Assets/GameArt/Textures/Grid_01_Normal.png
+Dependencies: []

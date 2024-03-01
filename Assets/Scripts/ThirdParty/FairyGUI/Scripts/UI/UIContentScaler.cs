@@ -42,12 +42,12 @@ namespace FairyGUI
         /// <summary>
         /// 
         /// </summary>
-        public int designResolutionX;
+        public int designResolutionX = 1080;
 
         /// <summary>
         /// 
         /// </summary>
-        public int designResolutionY;
+        public int designResolutionY = 720;
 
         /// <summary>
         /// 

@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2919405994
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 00b03ab0dbefcdc16db7338421ec0b53
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ff414f606ea1972259b080d7bcf51689
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameArt/FUI_atlas/Common_atlas0.png
+- Assets/GameArt/FUI_atlas/Lobby_atlas0.png
+Dependencies: []

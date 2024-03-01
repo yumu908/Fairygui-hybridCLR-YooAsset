@@ -21,6 +21,13 @@ public class Boot : MonoBehaviour
     /// </summary>
     public EPlayMode PlayMode = EPlayMode.EditorSimulateMode;
 
+    [SerializeField][Tooltip("热更资源下载地址")] private string resourceUrl = "http://127.0.0.1";
+    [SerializeField][Tooltip("热更资源下载备用地址")]private string fallbackUrl = "http://127.0.0.1";
+
+    public static string ResourceUrl => _instance.resourceUrl;
+
+    public static string FallbackUrl => _instance.fallbackUrl;
+
     private static Dictionary<string, byte[]> s_assetDatas = new Dictionary<string, byte[]>();
 
     public static byte[] ReadBytesFromStreamingAssets(string dllName)
@@ -30,11 +37,14 @@ public class Boot : MonoBehaviour
 
     private static Assembly _hotUpdateAss;
 
-    void Awake()
+    private static Boot _instance;
+
+    public virtual void Awake()
     {
         Debug.Log($"资源系统运行模式：{PlayMode}");
         Application.targetFrameRate = 60;
         Application.runInBackground = true;
+        _instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
 
@@ -88,7 +98,7 @@ public class Boot : MonoBehaviour
             "mscorlib.dll",
             // "GameCore.dll",
             // "System.Core.dll",
-            // "UniTask.dll",
+            "UniTask.dll",
             // "UnityEngine.CoreModule.dll",
             // "YooAsset.dll",
             // "mscorlib.dll",
@@ -101,6 +111,7 @@ public class Boot : MonoBehaviour
         var hotfixPackage = YooAssets.GetPackage("CodeResPackage");
         foreach (var aotDllName in AOTMetaAssemblyFiles)
         {
+            Debug.Log(aotDllName);
             var handle = hotfixPackage.LoadRawFileAsync($"Assets/GameRes/Code/{aotDllName}.bytes");
             yield return handle;
             var bytes = handle.GetRawFileData();

@@ -1,12 +1,11 @@
-using MK.Client.Lobby;using Core.UI;
+using Core.UI;
 using Cysharp.Threading.Tasks;
 using HotUpdate.GameLogic;
-using UnityEngine.SceneManagement;
-using YooAsset;
+using MK.Client.Lobby;
 
 namespace MK.Client
 {
-	[FUIEvent(PanelId.LobbyPanel, "Lobby", "LobbyPanel")]
+    [FUIEvent(PanelId.LobbyPanel, "Lobby", "LobbyPanel")]
 	public class LobbyPanelHandler: UIFormBase
 	{
 		public FUI_LobbyPanel FUILobbyPanel

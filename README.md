@@ -22,5 +22,8 @@ https://github.com/egametang/ET
 https://github.com/EllanJiang/GameFramework  
 
 
+注意：
+1.选择HybridCLR->Generate->All或者其他菜单前，请选择OPS->Obfuscator->Enable Obfuscation 进行关闭，不然发布应用会发生一些找不到类型的错误。
+
 
 

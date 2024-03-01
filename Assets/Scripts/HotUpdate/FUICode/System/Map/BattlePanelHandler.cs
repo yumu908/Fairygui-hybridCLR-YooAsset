@@ -1,9 +1,9 @@
-using Core.Component;
-using MK.Client.Map;using Core.UI;
+using Core.UI;
+using MK.Client.Map;
 
 namespace MK.Client
 {
-	[FUIEvent(PanelId.BattlePanel, "Map", "BattlePanel")]
+    [FUIEvent(PanelId.BattlePanel, "Map", "BattlePanel")]
 	public class BattlePanelHandler: UIFormBase
 	{
 		public FUI_BattlePanel FUIBattlePanel

@@ -60,8 +60,8 @@ internal class FsmInitializePackage : IStateNode
         // 联机运行模式
         if (playMode == EPlayMode.HostPlayMode)
         {
-            string defaultHostServer = GetHostServerURL();
-            string fallbackHostServer = GetHostServerURL();
+            string defaultHostServer = GetHostServerURL(Boot.ResourceUrl);
+            string fallbackHostServer = GetHostServerURL(Boot.FallbackUrl);
             var createParameters = new HostPlayModeParameters();
             createParameters.DecryptionServices = new FileStreamDecryption();
             createParameters.BuildinQueryServices = new GameQueryServices();
@@ -72,8 +72,8 @@ internal class FsmInitializePackage : IStateNode
         // WebGL运行模式
         if (playMode == EPlayMode.WebPlayMode)
         {
-            string defaultHostServer = GetHostServerURL();
-            string fallbackHostServer = GetHostServerURL();
+            string defaultHostServer = GetHostServerURL(Boot.ResourceUrl);
+            string fallbackHostServer = GetHostServerURL(Boot.FallbackUrl);
             var createParameters = new WebPlayModeParameters();
             createParameters.DecryptionServices = new FileStreamDecryption();
             createParameters.BuildinQueryServices = new GameQueryServices();
@@ -100,10 +100,9 @@ internal class FsmInitializePackage : IStateNode
     /// <summary>
     /// 获取资源服务器地址
     /// </summary>
-    private string GetHostServerURL()
+    private string GetHostServerURL(string hostServerIP)
     {
         //string hostServerIP = "http://10.0.2.2"; //安卓模拟器地址
-        string hostServerIP = "http://127.0.0.1";
         string appVersion = "package";
 
 #if UNITY_EDITOR

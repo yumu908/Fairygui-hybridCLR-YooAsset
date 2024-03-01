@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using MK;
+using UnityEngine;
 
 namespace FUIEditor
 {
@@ -24,7 +25,7 @@ namespace FUIEditor
                 byteBuf.WriteString(names[i]);
             }
             
-            string filePath = $"../hybridclr-yooasset-game/Assets/GameArt/FUI/UIPackageMapping.bytes";
+            string filePath =  Application.dataPath +  "/GameArt/FUI_bytes/UIPackageMapping.bytes";
             using FileStream fs = new FileStream(filePath, FileMode.Create);
             fs.Write(byteBuf.Bytes, 0, byteBuf.Bytes.Length);
         }

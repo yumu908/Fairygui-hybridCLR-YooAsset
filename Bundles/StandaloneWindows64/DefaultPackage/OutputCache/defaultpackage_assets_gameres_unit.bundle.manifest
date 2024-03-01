@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 2963694036
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 45d3ab1a206bd6815638cb62b2b8af7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2710ac91e61809067ad7e6e88b5f3ea7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/GameRes/Unit/Cube.prefab
+Dependencies:
+- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

@@ -1,0 +1,8 @@
+*.csproj
+.vsconfig
+Fairygui-hybridCLR-YooAsset.sln
+Temp/
+Library/
+Logs/
+yoo/CodeResPackage/
+yoo/DefaultPackage/

@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading;
-using HybridCLR.Editor;
-using UnityEngine;
 using UnityEditor;
 using UnityEditor.Compilation;
+using UnityEngine;
 
 namespace MK
 {
