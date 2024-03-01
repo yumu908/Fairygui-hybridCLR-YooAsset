@@ -6,3 +6,6 @@ Library/
 Logs/
 yoo/CodeResPackage/
 yoo/DefaultPackage/
+.vs/
+HybridCLRData/
+obj/
