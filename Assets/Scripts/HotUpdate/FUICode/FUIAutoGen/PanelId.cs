@@ -5,7 +5,9 @@ namespace MK.Client
 	public enum PanelId
 	{
 		Invalid = 0,
+		DialogPanel,
 		HotUpdatePanel,
+		LoadingPanel,
 		LobbyPanel,
 		BattlePanel,
 	}

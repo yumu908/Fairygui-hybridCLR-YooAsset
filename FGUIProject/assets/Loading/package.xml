@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageDescription id="us0guk45">
+  <resources>
+    <component id="jx390" name="LoadingPanel.xml" path="/" exported="true"/>
+    <movieclip id="jx391" name="pet.jta" path="/images/"/>
+    <image id="jx392" name="huawen1_png.png" path="/images/"/>
+    <image id="jx393" name="huawen2_png.png" path="/images/"/>
+    <image id="jx394" name="loading.png.jpg" path="/images/"/>
+    <component id="jx396" name="ProgressBar.xml" path="/Components/" exported="true"/>
+    <image id="jx398" name="car.png" path="/images/"/>
+  </resources>
+  <publish name=""/>
+</packageDescription>

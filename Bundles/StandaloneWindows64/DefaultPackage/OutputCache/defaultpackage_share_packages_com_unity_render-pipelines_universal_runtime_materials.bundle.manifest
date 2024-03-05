@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2110511879
+CRC: 3575698980
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: e13b04139827d850aa367bdfbe2b5977
+    Hash: 09b6c388ff6819e2f6a51e43d06e833f
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 1397ad235555a4f37791d5b3ff19e7a7
+    Hash: 5e762ccb57c4caaabbb5a4199ac82c23
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 09b6c388ff6819e2f6a51e43d06e833f
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -17,4 +20,4 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat
 Dependencies:
-- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_unityshaders.bundle
+- E:/unityspace2/Fairygui-hybridCLR-YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_unityshaders.bundle

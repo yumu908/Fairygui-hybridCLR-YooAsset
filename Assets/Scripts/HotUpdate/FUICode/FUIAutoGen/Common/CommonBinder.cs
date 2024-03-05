@@ -14,6 +14,7 @@ namespace MK.Client
 			UIObjectFactory.SetPackageItemExtension(MK.Client.Common.FUI_CommonBtn.URL, typeof(MK.Client.Common.FUI_CommonBtn));
 			UIObjectFactory.SetPackageItemExtension(MK.Client.Common.FUI_ProgressBar1.URL, typeof(MK.Client.Common.FUI_ProgressBar1));
 			UIObjectFactory.SetPackageItemExtension(MK.Client.Common.FUI_TwoComponent.URL, typeof(MK.Client.Common.FUI_TwoComponent));
+			UIObjectFactory.SetPackageItemExtension(MK.Client.Common.FUI_Button1.URL, typeof(MK.Client.Common.FUI_Button1));
 		}
 	}
 }

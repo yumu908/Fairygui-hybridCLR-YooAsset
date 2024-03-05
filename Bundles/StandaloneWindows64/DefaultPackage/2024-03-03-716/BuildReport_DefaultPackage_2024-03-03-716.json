@@ -1,0 +1,284 @@
+{
+    "Summary": {
+        "YooVersion": "2.1.1",
+        "UnityVersion": "2022.3.17f1c1",
+        "BuildDate": "2024/3/3 11:56:48",
+        "BuildSeconds": 5,
+        "BuildTarget": 19,
+        "BuildMode": 0,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2024-03-03-716",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": false,
+        "IgnoreDefaultType": true,
+        "AutoCollectShaders": true,
+        "EnableSharePackRule": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "AssetFileTotalCount": 15,
+        "MainAssetTotalCount": 8,
+        "AllBundleTotalCount": 11,
+        "AllBundleTotalSize": 2441574,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "MyShaderVariants",
+            "AssetPath": "Assets/GameArt/ShaderVariants/MyShaderVariants.shadervariants",
+            "AssetGUID": "9db74adeb46eb2c42a3ad37355029660",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_unityshaders.bundle",
+            "MainBundleSize": 74413,
+            "DependAssets": []
+        },
+        {
+            "Address": "Lobby",
+            "AssetPath": "Assets/GameRes/Scene/Lobby.unity",
+            "AssetGUID": "716431e353ba4b8458b5ef185cf4dfb2",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameres_scene_lobby.bundle",
+            "MainBundleSize": 119904,
+            "DependAssets": []
+        },
+        {
+            "Address": "scene_test",
+            "AssetPath": "Assets/GameRes/Scene/scene_test.unity",
+            "AssetGUID": "a1facd4e314076d4dac1b3c6c3f91759",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameres_scene_scene_test.bundle",
+            "MainBundleSize": 120450,
+            "DependAssets": [
+                "Assets/GameArt/Textures/Grid_01_BaseMap.png",
+                "Assets/GameArt/Materials/GridBlue_01_Mat.mat",
+                "Assets/GameArt/Textures/Grid_01_Emissive.png",
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Assets/GameArt/Textures/Grid_01_Normal.png",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "Address": "Space",
+            "AssetPath": "Assets/GameRes/UIImage/Space.jpg",
+            "AssetGUID": "b76b8b216adf64f4bbdb78f7977f0310",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameres_uiimage.bundle",
+            "MainBundleSize": 1111922,
+            "DependAssets": []
+        },
+        {
+            "Address": "UILoading",
+            "AssetPath": "Assets/GameRes/UIPanel/UILoading.prefab",
+            "AssetGUID": "79ae622f4c23c47449fc3ea70abaca51",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameres_uipanel_uiloading.bundle",
+            "MainBundleSize": 5124,
+            "DependAssets": [
+                "Assets/GameArt/UIFont/zekton free.ttf",
+                "Assets/GameRes/UIImage/Space.jpg"
+            ]
+        },
+        {
+            "Address": "Common_atlas0",
+            "AssetPath": "Assets/GameArt/FUI_atlas/Common_atlas0.png",
+            "AssetGUID": "0c22173116f4926458f39219f689d353",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameart_fui_atlas.bundle",
+            "MainBundleSize": 937917,
+            "DependAssets": []
+        },
+        {
+            "Address": "Lobby_atlas0",
+            "AssetPath": "Assets/GameArt/FUI_atlas/Lobby_atlas0.png",
+            "AssetGUID": "8d9ad7ce12474884fb9b7fbb5f4c1d2b",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameart_fui_atlas.bundle",
+            "MainBundleSize": 937917,
+            "DependAssets": []
+        },
+        {
+            "Address": "Cube",
+            "AssetPath": "Assets/GameRes/Unit/Cube.prefab",
+            "AssetGUID": "28badb7dfb4cac642aa174ee73aa6bd5",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_assets_gameres_unit.bundle",
+            "MainBundleSize": 3686,
+            "DependAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "defaultpackage_unityshaders.bundle",
+            "FileName": "181406f0efba616fbf6de756a12791d7.bundle",
+            "FileHash": "181406f0efba616fbf6de756a12791d7",
+            "FileCRC": "05cf16b5",
+            "FileSize": 74413,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameArt/ShaderVariants/MyShaderVariants.shadervariants",
+                "Packages/com.unity.render-pipelines.universal/Shaders/Lit.shader"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_scene_lobby.bundle",
+            "FileName": "0dd4f27f65ea737e3939300e3502d7c2.bundle",
+            "FileHash": "0dd4f27f65ea737e3939300e3502d7c2",
+            "FileCRC": "99dcf20c",
+            "FileSize": 119904,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameRes/Scene/Lobby.unity"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_scene_scene_test.bundle",
+            "FileName": "b100cbde630912ad062ab730f72f7a4f.bundle",
+            "FileHash": "b100cbde630912ad062ab730f72f7a4f",
+            "FileCRC": "adf2ce32",
+            "FileSize": 120450,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_share_assets_gameart_materials.bundle",
+                "defaultpackage_share_assets_gameart_textures.bundle",
+                "defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "defaultpackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GameRes/Scene/scene_test.unity"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_uiimage.bundle",
+            "FileName": "9b3ba37fe79bf88c864352f5e87b2e96.bundle",
+            "FileHash": "9b3ba37fe79bf88c864352f5e87b2e96",
+            "FileCRC": "6ec56bf4",
+            "FileSize": 1111922,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameRes/UIImage/Space.jpg"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_uipanel_uiloading.bundle",
+            "FileName": "3d06b834c2b8a559dde12be5eb337251.bundle",
+            "FileHash": "3d06b834c2b8a559dde12be5eb337251",
+            "FileCRC": "13efee20",
+            "FileSize": 5124,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_assets_gameres_uiimage.bundle",
+                "defaultpackage_share_assets_gameart_uifont.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GameRes/UIPanel/UILoading.prefab"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameart_fui_atlas.bundle",
+            "FileName": "bbab4be3a7d155220772c9f4fa9f4c9e.bundle",
+            "FileHash": "bbab4be3a7d155220772c9f4fa9f4c9e",
+            "FileCRC": "71558282",
+            "FileSize": 937917,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameArt/FUI_atlas/Common_atlas0.png",
+                "Assets/GameArt/FUI_atlas/Lobby_atlas0.png"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_unit.bundle",
+            "FileName": "46c36cb6018c268b1abd24a1b9add004.bundle",
+            "FileHash": "46c36cb6018c268b1abd24a1b9add004",
+            "FileCRC": "953cd6bc",
+            "FileSize": 3686,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+                "defaultpackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GameRes/Unit/Cube.prefab"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_textures.bundle",
+            "FileName": "3b88b7644b5738ffa2af2fb52532a5d9.bundle",
+            "FileHash": "3b88b7644b5738ffa2af2fb52532a5d9",
+            "FileCRC": "d0335cb4",
+            "FileSize": 43054,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameArt/Textures/Grid_01_BaseMap.png",
+                "Assets/GameArt/Textures/Grid_01_Emissive.png",
+                "Assets/GameArt/Textures/Grid_01_Normal.png"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_materials.bundle",
+            "FileName": "c72d19fa4154d6efd6bf853a86cf47eb.bundle",
+            "FileHash": "c72d19fa4154d6efd6bf853a86cf47eb",
+            "FileCRC": "6d5050f0",
+            "FileSize": 3127,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_share_assets_gameart_textures.bundle",
+                "defaultpackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Assets/GameArt/Materials/GridBlue_01_Mat.mat"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "FileName": "d0647f30d7a110d39ff4951e3dc0fc1e.bundle",
+            "FileHash": "d0647f30d7a110d39ff4951e3dc0fc1e",
+            "FileCRC": "21099c8e",
+            "FileSize": 3037,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_unityshaders.bundle"
+            ],
+            "AllBuiltinAssets": [
+                "Packages/com.unity.render-pipelines.universal/Runtime/Materials/Lit.mat"
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_uifont.bundle",
+            "FileName": "ed91bf3b9ae3b26549644b3106515c74.bundle",
+            "FileHash": "ed91bf3b9ae3b26549644b3106515c74",
+            "FileCRC": "8f97012c",
+            "FileSize": 18940,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "AllBuiltinAssets": [
+                "Assets/GameArt/UIFont/zekton free.ttf"
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

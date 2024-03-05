@@ -47,9 +47,9 @@ namespace FUIEditor
         public static string ClassNamePrefix = "FUI_";
         
         // 代码生成路径
-        public const string FUIAutoGenDir = "../hybridclr-yooasset-game/Assets/Scripts/HotUpdate/FUICode/FUIAutoGen";
-        public const string ModelViewCodeDir = "../hybridclr-yooasset-game/Assets/Scripts/HotUpdate/FUICode/FUI";
-        public const string HotfixViewCodeDir = "../hybridclr-yooasset-game/Assets/Scripts/HotUpdate/FUICode/System";
+        public readonly static string FUIAutoGenDir = Application.dataPath + "/Scripts/HotUpdate/FUICode/FUIAutoGen";
+        public readonly static string ModelViewCodeDir = Application.dataPath + "/Scripts/HotUpdate/FUICode/FUI";
+        public readonly static string HotfixViewCodeDir = Application.dataPath + "/Scripts/HotUpdate/FUICode/System";
 
         // 不生成使用默认名称的成员
         public static readonly bool IgnoreDefaultVariableName = true;
@@ -59,8 +59,10 @@ namespace FUIEditor
         public static readonly Dictionary<string, ComponentInfo> ComponentInfos = new Dictionary<string, ComponentInfo>();
         
         public static readonly List<ComponentInfo> MainPanelComponentInfos = new List<ComponentInfo>();
-        
+
+#pragma warning disable CS0436 // 类型与导入类型冲突
         public static readonly MultiDictionary<string, string, ComponentInfo> ExportedComponentInfos = new MultiDictionary<string, string, ComponentInfo>();
+#pragma warning restore CS0436 // 类型与导入类型冲突
 
         private static readonly HashSet<string> ExtralExportURLs = new HashSet<string>();
 

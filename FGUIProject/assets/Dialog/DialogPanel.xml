@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="532,332" remark="Main">
+  <displayList>
+    <image id="n2_jx39" name="n2" src="jx393" fileName="images/2.png" xy="0,0" size="532,332"/>
+    <text id="n4_jx39" name="message" xy="67,45" size="399,163" fontSize="28" color="#ffffff" autoSize="none" text=""/>
+    <component id="n5_jx39" name="confirm" src="jx39w" fileName="Components/Button1.xml" pkg="f2boiu4i" xy="94,232" size="120,50">
+      <Button title="确定"/>
+    </component>
+    <component id="n6_jx39" name="cancel" src="jx39w" fileName="Components/Button1.xml" pkg="f2boiu4i" xy="310,230" size="120,50" grayed="true">
+      <Button title="取消" titleColor="#ffffff"/>
+    </component>
+  </displayList>
+</component>

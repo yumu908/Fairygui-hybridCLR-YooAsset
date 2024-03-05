@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<component size="1080,720" remark="Main">
+  <displayList>
+    <image id="n3_jx39" name="n3" src="jx398" fileName="images/car.png" xy="-5,-88" size="1089,809"/>
+    <component id="n1_jx39" name="progress" src="jx396" fileName="Components/ProgressBar.xml" xy="252,632">
+      <ProgressBar value="100" max="100"/>
+    </component>
+  </displayList>
+</component>

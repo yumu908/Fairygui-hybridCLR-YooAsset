@@ -12,7 +12,7 @@ public class FUIProcessor : AssetPostprocessor
     {
         foreach (var asset in importedAssets)
         {
-            if(!asset.StartsWith(path) || AssetDatabase.IsValidFolder(asset))
+            if(!asset.StartsWith(path + "/") || AssetDatabase.IsValidFolder(asset))
             {
                 continue;
             }

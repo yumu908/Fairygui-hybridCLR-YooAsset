@@ -1,0 +1,235 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "RawFileBuildPipeline",
+    "PackageName": "CodeResPackage",
+    "PackageVersion": "2024-03-03-716",
+    "AssetList": [
+        {
+            "Address": "GameCore.dll",
+            "AssetPath": "Assets/GameRes/Code/GameCore.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "HotUpdate.dll",
+            "AssetPath": "Assets/GameRes/Code/HotUpdate.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "mscorlib.dll",
+            "AssetPath": "Assets/GameRes/Code/mscorlib.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "System.Core.dll",
+            "AssetPath": "Assets/GameRes/Code/System.Core.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "System.dll",
+            "AssetPath": "Assets/GameRes/Code/System.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "UniFramework.Event.dll",
+            "AssetPath": "Assets/GameRes/Code/UniFramework.Event.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "UniTask.dll",
+            "AssetPath": "Assets/GameRes/Code/UniTask.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        },
+        {
+            "Address": "UnityEngine.CoreModule.dll",
+            "AssetPath": "Assets/GameRes/Code/UnityEngine.CoreModule.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 7
+        },
+        {
+            "Address": "YooAsset.dll",
+            "AssetPath": "Assets/GameRes/Code/YooAsset.dll.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 8
+        },
+        {
+            "Address": "Common_fui",
+            "AssetPath": "Assets/GameArt/FUI_bytes/Common_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 9
+        },
+        {
+            "Address": "HotUpdate_fui",
+            "AssetPath": "Assets/GameArt/FUI_bytes/HotUpdate_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 10
+        },
+        {
+            "Address": "Lobby_fui",
+            "AssetPath": "Assets/GameArt/FUI_bytes/Lobby_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 11
+        },
+        {
+            "Address": "Map_fui",
+            "AssetPath": "Assets/GameArt/FUI_bytes/Map_fui.bytes",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 12
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "coderespackage_assets_gameres_code_gamecore_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "dc8b03b5cc82daafb1d0fc8319db6b17",
+            "FileCRC": "2cc29592",
+            "FileSize": 102912,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_hotupdate_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "6d95d666da88523f27eb283c81e13d3c",
+            "FileCRC": "16609943",
+            "FileSize": 35840,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_mscorlib_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "8d55c92541a82df3828dca57a3f2f348",
+            "FileCRC": "3d3c91f3",
+            "FileSize": 1930240,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_system_core_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "aa4d154a7128dbe7f9a7e74f437dda0e",
+            "FileCRC": "33d0d3c6",
+            "FileSize": 46080,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_system_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "a2fd4c8c3fa58bd755a0b0f928b6c573",
+            "FileCRC": "d311e141",
+            "FileSize": 225792,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_uniframework_event_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "08311180eef85600cb462c555a90c9fd",
+            "FileCRC": "dfc7be5c",
+            "FileSize": 7680,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_unitask_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c5ddb7d2dbaab1db65435802e6c5dc84",
+            "FileCRC": "101d2093",
+            "FileSize": 496128,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_unityengine_coremodule_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "7a1f6641d297872078c187ca0e1d4f06",
+            "FileCRC": "963353a0",
+            "FileSize": 321536,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameres_code_yooasset_dll_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "cad5e0f2f052ddeea5950ee12629d93a",
+            "FileCRC": "f381cbc1",
+            "FileSize": 154624,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameart_fui_bytes_common_fui_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "c8ecb66d7006902b9bb2261d1dbf2404",
+            "FileCRC": "39ff11af",
+            "FileSize": 6231,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameart_fui_bytes_hotupdate_fui_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "dd7bcb7e8f0fdc98d8556bff3f6dabac",
+            "FileCRC": "bc8cbd40",
+            "FileSize": 828,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameart_fui_bytes_lobby_fui_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "4f56748cdc2434c3b6e5851a8ffd2240",
+            "FileCRC": "f73e269f",
+            "FileSize": 630,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "coderespackage_assets_gameart_fui_bytes_map_fui_bytes.rawfile",
+            "UnityCRC": 0,
+            "FileHash": "f43bbd6af8165e2065e69ead17a94051",
+            "FileCRC": "ef2c14fc",
+            "FileSize": 1352,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}

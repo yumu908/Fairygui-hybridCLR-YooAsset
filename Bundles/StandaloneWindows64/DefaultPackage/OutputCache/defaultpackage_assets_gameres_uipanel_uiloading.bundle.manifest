@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2552437718
+CRC: 498682011
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 110d0ff4ff07ef6360a9fe2683fdab97
+    Hash: 6d21ec5485dc367a74796dd291e55e72
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 022da474cba9d136de2343f29be73abd
+    Hash: 03e15aa3a9a7c7f432e7f28d44834193
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 6d21ec5485dc367a74796dd291e55e72
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,5 +44,5 @@ SerializeReferenceClassIdentifiers:
 Assets:
 - Assets/GameRes/UIPanel/UILoading.prefab
 Dependencies:
-- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_assets_gameres_uiimage.bundle
-- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_assets_gameart_uifont.bundle
+- E:/unityspace2/Fairygui-hybridCLR-YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_assets_gameres_uiimage.bundle
+- E:/unityspace2/Fairygui-hybridCLR-YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_assets_gameart_uifont.bundle

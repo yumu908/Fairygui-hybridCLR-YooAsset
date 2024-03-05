@@ -1,12 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2068203971
+CRC: 1890054719
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: a8aae6106effb295b4eb6516724cd472
+    Hash: fc8700f8dd46a45e5e7c048292fb09b9
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 67d4d30e7bd9e3b2f1c97d843ed91fad
+    Hash: 34ac89d6afb21a57737136c4a37bc7c4
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fc8700f8dd46a45e5e7c048292fb09b9
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -53,5 +56,5 @@ SerializeReferenceClassIdentifiers: []
 Assets:
 - Assets/GameRes/Scene/scene_test.unity
 Dependencies:
-- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_assets_gameart_materials.bundle
-- D:/apk/Fairygui-hybridCLR-YooAsset-main/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle
+- E:/unityspace2/Fairygui-hybridCLR-YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_assets_gameart_materials.bundle
+- E:/unityspace2/Fairygui-hybridCLR-YooAsset/Bundles/StandaloneWindows64/DefaultPackage/OutputCache/defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle

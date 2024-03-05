@@ -1,0 +1,196 @@
+{
+    "FileVersion": "2.0.0",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2024-03-03-716",
+    "AssetList": [
+        {
+            "Address": "MyShaderVariants",
+            "AssetPath": "Assets/GameArt/ShaderVariants/MyShaderVariants.shadervariants",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0
+        },
+        {
+            "Address": "Lobby",
+            "AssetPath": "Assets/GameRes/Scene/Lobby.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 1
+        },
+        {
+            "Address": "scene_test",
+            "AssetPath": "Assets/GameRes/Scene/scene_test.unity",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 2
+        },
+        {
+            "Address": "Space",
+            "AssetPath": "Assets/GameRes/UIImage/Space.jpg",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 3
+        },
+        {
+            "Address": "UILoading",
+            "AssetPath": "Assets/GameRes/UIPanel/UILoading.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 4
+        },
+        {
+            "Address": "Common_atlas0",
+            "AssetPath": "Assets/GameArt/FUI_atlas/Common_atlas0.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "Lobby_atlas0",
+            "AssetPath": "Assets/GameArt/FUI_atlas/Lobby_atlas0.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 5
+        },
+        {
+            "Address": "Cube",
+            "AssetPath": "Assets/GameRes/Unit/Cube.prefab",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 6
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_unityshaders.bundle",
+            "UnityCRC": 892051716,
+            "FileHash": "181406f0efba616fbf6de756a12791d7",
+            "FileCRC": "05cf16b5",
+            "FileSize": 74413,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_scene_lobby.bundle",
+            "UnityCRC": 3302119401,
+            "FileHash": "0dd4f27f65ea737e3939300e3502d7c2",
+            "FileCRC": "99dcf20c",
+            "FileSize": 119904,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_scene_scene_test.bundle",
+            "UnityCRC": 1890054719,
+            "FileHash": "b100cbde630912ad062ab730f72f7a4f",
+            "FileCRC": "adf2ce32",
+            "FileSize": 120450,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                8,
+                7,
+                9,
+                0
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_uiimage.bundle",
+            "UnityCRC": 75024680,
+            "FileHash": "9b3ba37fe79bf88c864352f5e87b2e96",
+            "FileCRC": "6ec56bf4",
+            "FileSize": 1111922,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_uipanel_uiloading.bundle",
+            "UnityCRC": 498682011,
+            "FileHash": "3d06b834c2b8a559dde12be5eb337251",
+            "FileCRC": "13efee20",
+            "FileSize": 5124,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                3,
+                10
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameart_fui_atlas.bundle",
+            "UnityCRC": 1946811274,
+            "FileHash": "bbab4be3a7d155220772c9f4fa9f4c9e",
+            "FileCRC": "71558282",
+            "FileSize": 937917,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_assets_gameres_unit.bundle",
+            "UnityCRC": 1919011886,
+            "FileHash": "46c36cb6018c268b1abd24a1b9add004",
+            "FileCRC": "953cd6bc",
+            "FileSize": 3686,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                9,
+                0
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_textures.bundle",
+            "UnityCRC": 621898544,
+            "FileHash": "3b88b7644b5738ffa2af2fb52532a5d9",
+            "FileCRC": "d0335cb4",
+            "FileSize": 43054,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_materials.bundle",
+            "UnityCRC": 389813784,
+            "FileHash": "c72d19fa4154d6efd6bf853a86cf47eb",
+            "FileCRC": "6d5050f0",
+            "FileSize": 3127,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                7,
+                0
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_packages_com_unity_render-pipelines_universal_runtime_materials.bundle",
+            "UnityCRC": 3575698980,
+            "FileHash": "d0647f30d7a110d39ff4951e3dc0fc1e",
+            "FileCRC": "21099c8e",
+            "FileSize": 3037,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": [
+                0
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_share_assets_gameart_uifont.bundle",
+            "UnityCRC": 2442654396,
+            "FileHash": "ed91bf3b9ae3b26549644b3106515c74",
+            "FileCRC": "8f97012c",
+            "FileSize": 18940,
+            "Encrypted": false,
+            "Tags": [],
+            "DependIDs": []
+        }
+    ]
+}
