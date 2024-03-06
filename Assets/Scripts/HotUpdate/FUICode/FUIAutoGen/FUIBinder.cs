@@ -11,9 +11,7 @@ namespace MK.Client
 			UIObjectFactory.Clear();
 			
 			CommonBinder.BindAll();
-			DialogBinder.BindAll();
 			HotUpdateBinder.BindAll();
-			LoadingBinder.BindAll();
 			LobbyBinder.BindAll();
 			MapBinder.BindAll();
 		}

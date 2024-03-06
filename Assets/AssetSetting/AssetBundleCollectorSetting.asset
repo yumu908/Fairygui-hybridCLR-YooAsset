@@ -139,3 +139,32 @@ MonoBehaviour:
         FilterRuleName: CollectAll
         AssetTags: 
         UserData: 
+  - PackageName: main
+    PackageDesc: "\u4E3B\u754C\u9762"
+    EnableAddressable: 0
+    LocationToLower: 0
+    IncludeAssetGUID: 0
+    IgnoreDefaultType: 1
+    AutoCollectShaders: 1
+    Groups:
+    - GroupName: FUI
+      GroupDesc: "\u521D\u59CB\u5316\u754C\u9762"
+      AssetTags: 
+      ActiveRuleName: EnableGroup
+      Collectors:
+      - CollectPath: Assets/GameArt/Main/Dialog
+        CollectorGUID: fe0dde0b70ac3bb4aa957eb30c38a215
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 
+      - CollectPath: Assets/GameArt/Main/Loading
+        CollectorGUID: 9d4e13a2cc69415499846bfd3cd793f0
+        CollectorType: 0
+        AddressRuleName: AddressByFileName
+        PackRuleName: PackDirectory
+        FilterRuleName: CollectAll
+        AssetTags: 
+        UserData: 

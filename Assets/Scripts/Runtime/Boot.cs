@@ -58,6 +58,14 @@ public class Boot : MonoBehaviour
 
         // 初始化资源系统
         YooAssets.Initialize();
+
+
+
+        MainOperation operation_main = new MainOperation("main",
+    EDefaultBuildPipeline.BuiltinBuildPipeline.ToString(), PlayMode);
+        YooAssets.StartOperation(operation_main);
+        yield return operation_main;
+
         // 加载更新页面
         var go = Resources.Load<GameObject>("PatchWindow");
         GameObject.Instantiate(go);
